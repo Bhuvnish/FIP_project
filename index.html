@@ -20,12 +20,12 @@
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="index.html">SHOP</a></li>
                         <li><a href="index.html">ABOUT US</a></li>
-                        <li><a href="index.html">GALLERY</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
                     </ul>
                 </nav>
-                <div id="header-box2" class="box-color">
+                <button id="header-box2" class="box-color">
                     SIGNIN
-                </div>
+                </button>
             </header>
         </div> 
 
@@ -65,7 +65,13 @@
                         beautifully eco-friendly piece<br>
                         at a time
                     </div>
-                    <img src="images/Screenshot 2022-11-29 144512.png" alt="image" id="about-image">
+                    <img src="images/gogles.png" alt="image" id="about-image" height="350px"  width="350px">
+                </div>
+                <div>
+                    <img src="images/belt.png" height=" 250px"  width="250px">
+                </div>
+                <div>
+                    <img src="images/purse3.png" height="">
                 </div>
                 <div id="headr-box2"  class="grid-con">
                   Read More
@@ -80,7 +86,17 @@
                     +139727214872<br>
                     COMFORTHOUSE@GMAIL.CA
                 </div>
-                <div id="contact-form" class="box-color">
+                
+                    <section id="contact-form">
+                        <h3 class="hidden">Contact Us Form</h3>
+                        <form action="email.php" method="POST" enctype="text/plain">
+                            <input name="fullName" type="text" placeholder="Firstname">
+                            <input name="fullName" type="text" placeholder="lastname">
+                            <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                            <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                            <input name="submit" type="submit" value="Send">
+                        </form>
+                    </section>
                 </div>
             </div> 
         </main>
