@@ -218,6 +218,71 @@ you work on and the intended audience */
 	
 	
 }
+#contact-form-hero {
+    height: 380px;
+    background: url(../images/hero_couple_contact.jpg) no-repeat bottom;
+}
+
+#contact-form-hero h2 {
+    grid-column: 7/12;
+    align-self: end;
+}
+
+#contact-form-text p {
+    grid-column: 2/12;
+    margin-bottom: 80px;
+}
+
+#contact-form-adress-left {
+    grid-column: 2/6;
+}
+
+#contact-form-fields-right {
+    grid-column: 6/12;
+}
+
+#contact-form-adress-left h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 22px;
+    border: 2px solid #d6d6d6;
+    border-radius:  5px;
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+    font: inherit;
+}
+
+#contact-form-fields-right textarea {
+    height: 300px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    padding: 16px 32px;
+    background-color: #9a2018;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    align-self: flex-end;
+}
+
+input[type="submit"]:hover {
+    background-color: #626262;
+    border-radius: 0;
+}
+
 
 #contact {
 	margin-top: 100px;
@@ -271,7 +336,7 @@ you work on and the intended audience */
 #footer-newsletter1 {
 	grid-column: 1/5;
 	/* Remove as content will dictate height */
-	height: 80px;
+	
 	font-size:30px;
 	color: #ddd; 
 	background-color: #2580E8;
@@ -280,14 +345,22 @@ you work on and the intended audience */
 #footer-newsletter2 {
 	grid-column: 5/7;
 	/* Remove as content will dictate height */
-	height: 60px;
+	
 	padding-top: 20px;
 	background-color: #2580E8;
 	font-size: 50px;
 	text-align: center;
+	
 }
-#footer-newsletter2 a{
+#footer-newsletter2 a {
 	color: #ddd;
+	width:800px;
+}
+::placeholder {
+	background: thistle;
+	padding: 5px;
+	width: 800px;
+	
 }
 
 #footer-social {
@@ -305,7 +378,7 @@ text-align: center;
 
 #gallery-hero-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/1920x580");
+	background: url(../images/hero_image_gallery.jpg);
 	height: 580px;
 }
 
@@ -314,6 +387,10 @@ text-align: center;
 	/* Remove as content will dictate height */
 	height: 200px;
 	margin-top: 100px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 48px;
+	
 }
 
 #gallery-controls {
@@ -343,4 +420,10 @@ text-align: center;
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 48px;
+	background-color: #2580e87e;
+	text-align: center;
+	
 }
