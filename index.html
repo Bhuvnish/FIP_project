@@ -2,59 +2,69 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>SUSTANAIBLE CLOTHING</title>
 <link href="css/main.css" rel="stylesheet">
 <link  type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
+    <h1 class="hidden">THE COMFORT ROOM</h1>
 	<div id="container">
         
         <div id="header-con">
             <header id="main-header" class="grid-con">
                 <div id="header-box1" >
-                    <img src="images/LOGO_FIP.svg">
+                    <img src="images/LOGO_FIP.svg" alt=" logo">
                 </div>
                 <nav id="main-nav">
+                    <h2 class="hidden">Main Navigation</h2>
                     <ul>
                         <li><a href="index.html">HOME</a></li>
-                        <li><a href="index.html">SHOP</a></li>
-                        <li><a href="index.html">ABOUT US</a></li>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">ABOUT US</a></li>
                         <li><a href="gallery.html">GALLERY</a></li>
                     </ul>
                 </nav>
-                <button id="header-box2" class="box-color">
+                <button id="header-box2" class="button">
                     SIGNIN
                 </button>
             </header>
-        </div> 
+       
+        </div>
+    
 
         <main>
             <section class="grid-con" id="hero">
                 <div id="hero-text" >
-                    <h1>SUSTANAIBLE CLOTHING</h1>
-                    We believe that business can be a force for<br> good in the world, so we focus on a triple<br> bottom line of purpose, people and profit<br> Encircled is one of the few female-founded<bR>locally made apparel brands to meet this <br>rigorous standard for social and environmental <br>responsibility
+                    
+                    <h2>SUSTANAIBLE CLOTHING</h2>
+                   <p> We believe that business can be a force for<br> good in the world, so we focus on a triple<br> bottom line of purpose, people and profit<br> Encircled is one of the few female-founded<bR>locally made apparel brands to meet this <br>rigorous standard for social and environmental <br>responsibility</p>
 
 
                 </div>
-                <img src="images/girl_leaf.jpg" alt="image" id="hero-image">
+                <img src="images/girl_leaf.jpg" alt="girl holding leaf" id="hero-image">
             </section>  
 
             <section class="grid-con" id="products">
                 <h2>FASION</h2>
                 <div class="product-box" id="product1">
+                    
                     <img src="images/men.jpg" alt="image">
+                    <div class="red_bumper"></div>
                     <h2>MEN</h2>
+                    
                 </div>
                 <div class="product-box" id="product2">
                     <img src="images/girl.jpg" alt="image">
+                    <div class="red_bumper"></div>
                     <h2>WOMEN</h2>
                 </div>
                 <div class="product-box" id="product3">
                     <img src="images/child.jpg" alt="image">
+                    <div class="red_bumper"></div>
                     <h2>CHIDREN</h2>
                 </div>
-            </section>>
+            </section>
 
             <h2 id="about-title">ACESSORIES</h2>
             <section id="about-con">
@@ -65,18 +75,12 @@
                         beautifully eco-friendly piece<br>
                         at a time
                     </div>
-                    <img src="images/gogles.png" alt="image" id="about-image" height="350px"  width="350px">
+                    <img src="images/ghh.png" alt="goggles" id="about-image" >
+                 
+                <button id="headr-box2"  class="grid-con">
+                  BUY NOW
+                </button>
                 </div>
-                <div>
-                    <img src="images/belt.png" height=" 250px"  width="250px">
-                </div>
-                <div>
-                    <img src="images/purse3.png" height="">
-                </div>
-                <div id="headr-box2"  class="grid-con">
-                  Read More
-                </div>
-
             </section>
             
             <div class="grid-con" id="contact">
@@ -87,22 +91,20 @@
                     COMFORTHOUSE@GMAIL.CA
                 </div>
                 
-                    <section id="contact-form">
-                        <h3 class="hidden">Contact Us Form</h3>
-                        <form action="email.php" method="POST" enctype="text/plain">
-                            <input name="fullName" type="text" placeholder="Firstname">
-                            <input name="fullName" type="text" placeholder="lastname">
-                            <input name="contactInfo" type="text" required placeholder="Phone number or Email">
-                            <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
-                            <input name="submit" type="submit" value="Send">
-                        </form>
-                    </section>
-                </div>
-            </div> 
+                <section id="contact-form">
+                    <h3 class="hidden">Contact Us Form</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="fullName" type="text" placeholder="First & Last Name">
+                        <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </section>
+            </div>
         </main>
 
         <div id="footer-con">
-            <div class="grid-con" id="footer">
+            <footer class="grid-con" id="footer">
                 <div id="footer-logo" >
                     HELP
                 </div>
@@ -111,7 +113,7 @@
                 </div>
                 
                 <div id="footer-newsletter1" >
-                    <p>newsletter signup</p>
+                    <p>NEWSLETTER SIGNUP</p>
                     <form action="email.php" method="post">
                        <input type="email" name="email" placeholder="Abc@domain.com" required>
                     </form>
@@ -130,9 +132,9 @@
                  <a href="#"><i class="fab fa-instagram"></i></a>
                       
                 </div>
-            </div>
+            </footer>
         </div>
-
-    </div> 
+    </div>
+    
 </body>
 </html>
