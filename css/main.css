@@ -213,7 +213,7 @@ align-items: center;}
 	background-color: #ddd;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #2580e87e ;
+	background-color: #89bbf3 ;
 }
 
 #about-title {
@@ -257,20 +257,22 @@ align-items: center;}
 
 input, textarea {
     padding: 22px;
-    border: 2px solid #f7f7f7;
+   
     border-radius:  5px;
-    background-color: #f7f7f7;
+   
     margin-bottom: 30px;
     font: inherit;
 	font-size: 35px;
+	
+	color: white;
 	
 }
 
 
 
 input[type="submit"] {
-    width: 150px;
-    padding: 16px 32px;
+    width: 250px;
+    padding: 26px 32px;
     background-color:#2580E8;
     color: #fff;
     border: none;
@@ -287,6 +289,7 @@ input[type="submit"]:hover {
 #contact {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -328,7 +331,7 @@ input[type="submit"]:hover {
 	/* Remove as content will dictate height */
 	height: 60px;
 	background-color: #2580E8;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	padding-top: 20px;
 	color: #dddddd;
@@ -340,7 +343,7 @@ input[type="submit"]:hover {
 	height: 60px;
 	margin-bottom: 100px;
 	background-color: #2580E8;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	padding-top: 20px;
 	color: #dddddd;
@@ -357,7 +360,7 @@ input[type="submit"]:hover {
 
 #footer-newsletter1 p{
 	font-size:40px;
-	color: #000;
+	color: black;
 }
 
 #footer-newsletter2 {
@@ -366,7 +369,7 @@ input[type="submit"]:hover {
 	height: 60px;
 	padding-top: 20px;
 	background-color: #2580E8;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	
 }
