@@ -2,28 +2,30 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>THE COMFORT WEAR</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
+    <h1 class="hidden"> THE comfort wear</h1>
 	<div id="container">
         
         <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <img src="images/LOGO_FIP.svg" alt="image" id="header-logo">
+            <header id="main-header" class="grid-con">
+                <img src="images/LOGO_FIP.svg" alt=" logo" id="header-logo">
                  <nav id="mobile-nav">
+                    <h2 class="hidden">Main Navigation</h2>
                     <span class="burger"> HOME</span>
-                    <span class="burger"> GALLERY</span>
+                    <span class="burger"> <a href="gallery_mobile.html">GALLERY</a></span> 
                     <span class="burger">SIGNIN</span>
                  </nav>
-            </div>    
+            </header>    
         </div> 
 
         <main>
             <div id="hero-con">
                 <div class="grid-con">
-                    <div id="hero-text">
+                    <article id="hero-text">
                         <h2>Sustainable clothing</h2>
                         <p>We believe that business can be a force for <br>
                             good in the world, so we focus on a triple bottom <br>
@@ -32,24 +34,24 @@
                             apparel brands to meet this rigorous standard <br>
                             for social and environmental responsibility<br>
                             </p>
-                    </div>
+                    </article>
                 </div>
             </div>
 
-            <div id="image-slider-con">
+            <section id="image-slider-con">
                 <h2>FASION</h2>
-                <img src="img/men.jpg" alt="image">
-                <h2>MEN</h2>
-                <span id="mobile-slider-left">&#60</span>
-                <span id="mobile-slider-right">&#62</span>
-            </div>
+                <img src="images/men_mobile.jpg" alt="men clothing">
+                <h3>MEN</h3>
+                <span id="mobile-slider-left">&#60;</span>
+                <span id="mobile-slider-right">&#62;</span>
+            </section>
 
-            <div id="about-us-con">
+            <section id="about-us-con">
                 <h2>ACESSORIES</h2>   
                     <div id="about-us-text-con">     
                         <div class="grid-con">
                             
-                            <div id="about-us-text" >
+                            <article id="about-us-text" >
                                 <h2>Eco-Friendly
                                     Acessories</h2>
                                 
@@ -57,45 +59,62 @@
                                 one beautifully <br>
                                 eco-friendly piece<br>
                                 at a time</p>
-                            </div>
+                            </article>
                         </div>      
                     </div>  
                     <div class="grid-con" id="about-us-photos">
-                        <img src="img/purse3.png" alt="image" class="about-us-photo">
-                        <img src="img/goggles.png" alt="image" class="about-us-photo">
-                        <img src="img/belt.png" alt="image" class="about-us-photo">
-                        <img src="img/shoes3.png" alt="image" class="about-us-photo">
+                        <img src="images/purse3_mobile.png" alt="black  ladies handbag" class="about-us-photo">
+                        <img src="images/goggles_mobile.png" alt=" black goggles" class="about-us-photo">
+                        <img src="images/belt_mobile.png" alt="  belt" class="about-us-photo">
+                        <img src="images/shoes3_mobile.png" alt="formal shoes" class="about-us-photo">
                     </div>         
-            </div>
+            </section>
 
-            <div id="contact-us-con">
+            <section id="contact-us-con">
                 <div class="grid-con">
                     <div id="contact-text">
                         <h2>Feel free to contact us </h2>
-                        need to contact us?  fill out the form with enquirey ,our team will get back to you within 24 hours.
+                       <p>need to contact us?  fill out the form with enquirey ,our team will get back to you within 24 hours.<br>
                         
-                        +139727214872
+                        +139727214872<br>
                         COMFORTHOUSE@GMAIL.CA
                     </div>
-                    <div id="contact-form" class="box-color">
-                    </div>
+                    
+                        <section id="contact-form">
+                            <h3 class="hidden">Contact Us Form</h3>
+                            <form action="email.php" method="POST" enctype="text/plain">
+                                <input name="fullName" type="text" placeholder="First & Last Name">
+                                <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                                <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                                <input name="submit" type="submit" value="Send">
+                            </form>
+                        </section>
+                    
                 </div>
-            </div>
+            </section>
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
         
 
 
             <div class="grid-con">
-                <div id="footer-box">
+                <button id="footer-box">
                     HELP
-                </div>
-                <div id="footer-newsletter">
-                    newsletter signup
-                </div>
+                </button>>
+                
+                    <section id="footer-newsletter1" >
+                        <h2>NEWSLETTER SIGNUP</h2>
+                        <form action="email.php" method="post">
+                           <input type="email" name="email" placeholder="Abc@domain.com" required>
+                        </form>
+                    </section>
+                    <div id="footer-newsletter2" >
+                        <a href="#">SUBMIT</a>
+                    </div>
+                
             </div>
-        </div>
+        </footer>
 
     </div>
 </body>
