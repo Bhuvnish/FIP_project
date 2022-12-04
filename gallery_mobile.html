@@ -6,32 +6,33 @@
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <!-- students must convert divs to semantic tags -->
+    <h1 class="hidden"> THE comfort wear</h1>
 	<div id="container">
         
         <div id="header-con">
-            <div id="main-header" class="grid-con">
+            <header id="main-header" class="grid-con">
                 <img src="images/LOGO_FIP.svg" alt="image" id="header-logo">
-                 <div id="mobile-nav">
-                    <span class="burger">HOME</span>
+                 <nav id="mobile-nav">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <span class="burger"><a href="index_mobile.html">HOME</a></span>
                     <span class="burger">GALLERY</span>
                     <span class="burger">SIGNIN</span>
-                 </div>
-            </div>    
+                 </nav>
+            </header>    
         </div> 
 
         <main>
             <div id="hero-gallery-con">
                 <div class="grid-con">
-                    <div id="hero-gallery-text" >
-                       <h1>SUSTAINABLE 
-                        CLOTHING</h1>
+                    <article id="hero-gallery-text" >
+                       <h2>SUSTAINABLE 
+                        CLOTHING</h2>
                         We believe beautiful clothes can’t 
                         come from veiled processes, so
                         transparency and ethical choices
                         are woven into every thread of our
                          supply chain
-                    </div>
+                    </article>
                     <div id="gallery-controls">
                         <span class="dot"></span>
                         <span class="dot"></span>
@@ -40,67 +41,67 @@
                 </div>
             </div>
 
-            <div class="grid-con" id="gallery">
+            <section class="grid-con" id="gallery">
                 <h2>GALLERY</h2>
                 <div class="gallery-box">
-                    <img src="img/furr_shoes.jpg" alt="image">
-                    <p>BUY NOW<br>
-                        FUR SHOES<BR>
+                    <img src="images/fur_shoes_mobile.jpg" alt="fur slipers">
+                    <h3> BUY NOW</h3>
+                        <p>FUR SHOES<BR>
                         $  20</p>
                 </div>
                 <div class="gallery-box">
-                    <img src="img/red_purse.jpg" alt="image">
-                    <p>BUY NOW<br>
-                       HANDBAG<BR>
+                    <img src="images/red_purse_mobile.jpg" alt="red handbag">
+                    <h3> BUY NOW</h3>
+                      <p> HANDBAG<BR>
                         $  30</p>
                 </div>
                 <div class="gallery-box">
-                    <img src="img/shoes2.jpg" alt="image">
-                    <p>BUY NOW<br>
-                       SHOES<BR>
+                    <img src="images/shoes2 mobile.jpg" alt=" formal shoes">
+                    <h3> BUY NOW</h3>
+                      <p> SHOES<BR>
                         $  30</p>
                    
 
                 </div>
                 <div class="gallery-box">
-                    <img src="img/lv_purse.jpg" alt="image">
-                    <p>BUY NOW<br>
-                        WALLET<BR>
+                    <img src="images/lv_purse_mobile.jpg" alt="  LV wallet">
+                    <h3> BUY NOW</h3>
+                      <p>WALLET<BR>
+                        $20</p>
+                </div>
+                <div class="gallery-box">
+                    <img src="images/green_purse_mobile.JPG" alt="green wallet">
+                    <h3> BUY NOW</h3>
+                      <p>WALLET<BR>
                         $  20</p>
                 </div>
                 <div class="gallery-box">
-                    <img src="img/green_purse.JPG" alt="image">
-                    <p>BUY NOW<br>
-                       WALLET<BR>
+                    <img src="images/google_leaf_mobile.JPG" alt="black sunglases">
+                    <h3> BUY NOW</h3>
+                     <p>GOGGLES<BR>
                         $  20</p>
                 </div>
-                <div class="gallery-box">
-                    <img src="img/google_leaf.JPG" alt="image">
-                    <p>BUY NOW<br>
-                        GOGGLES<BR>
-                        $  20</p>
-                </div>
-            </div>              
+            </section>              
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con">
                 <div id="footer-box">
                     HELP
                 </div>
- <div id="footer-newsletter" >
-                        <p>NEWSLETTER SIGNUP</p>
+                    <section id="footer-newsletter1" >
+                        <h2>NEWSLETTER SIGNUP</h2>
                         <form action="email.php" method="post">
                            <input type="email" name="email" placeholder="Abc@domain.com" required>
                         </form>
-                    </div>
+                    </section>
                     <div id="footer-newsletter2" >
                         <a href="#">SUBMIT</a>
                     </div>
 
-                </div>
+                
             </div>
-        </div>
+        </footer>
     </div> 
 </body>
 </html>
